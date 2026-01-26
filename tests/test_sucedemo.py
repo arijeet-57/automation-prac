@@ -34,7 +34,6 @@ def test_submit():
     checkout = driver.find_element(By.ID, "checkout")
     checkout.click()
 
-
     continue_cart = driver.find_element(By.ID, "continue")
     continue_cart.click()
 
